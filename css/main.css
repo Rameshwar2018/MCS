@@ -1,11 +1,7 @@
 /*
  @Author: Company Name
  @URL: http://companyname.com
- This file contains the styling for the actual theme, this
- is the file you need to edit to change the look of the
- theme.
- However we used Less script to make things easy to maintain, this is the compressed ourput, we recommend to edit the less files and then recombile the files and add the result here, if you don't like to use less you can edit this file here.
- 
+
  This files contents are outlined below.
  01.	Theme Reset Style
  02.	Global Elements
@@ -28,7 +24,7 @@
 	padding: 0px;
 }
 body {
-	color: #666;
+	color: #101010;
 	background: #fff url(../images/bodybg-01.png);
 	font:400 13px/21px 'Open Sans', Arial, Helvetica, sans-serif;
 }
@@ -38,7 +34,7 @@ body h3,
 body h4,
 body h5,
 body h6 {
-	color: #333;
+	color: #000;
 	margin: 0 0 8px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -123,7 +119,6 @@ input[type="color"],
 	display: inline-block;
 	vertical-align: middle;
 	border: 1px solid #ddd;
-	text-transform: capitalize;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -331,11 +326,6 @@ address { font-style: italic; }
 }
 .tg-btn-lg{ width: 100%;}
 
-
-
-
-
-
 .tg-socialicons{
 	overflow: hidden;
 	list-style: none;
@@ -499,144 +489,9 @@ li.tg-rss a{background:#ff6600;}
 	padding-left: 0;
 }
 /*==============================================
-			Theme Pagination					
-==============================================*/
-.tg-pagination{
-	width:100%;
-	float: left;
-	padding: 40px 0 0;
-	font:13px/30px 'Work Sans', Arial, Helvetica, sans-serif;
-}
-.tg-pagination ul{
-	margin:0;
-	padding:0;
-	width: 100%;
-	float:left;
-	list-style:none;
-	line-height: 30px;
-	text-align: center;
-}
-.tg-pagination ul li{
-	margin:3px;
-	width:30px;
-	height: 30px;
-	line-height: 30px;
-	background: #f8f8f8;
-	list-style-type:none;
-	display: inline-block;
-	vertical-align: top;
-}
-.tg-pagination ul li a{
-	color:#333;
-	display:block;
-	overflow: hidden;
-	text-align:center;
-	position:relative;
-	line-height: 30px;
-}
-.tg-pagination ul li.tg-nextpage a,
-.tg-pagination ul li.tg-prevpage a{color: #333;}
-.tg-pagination ul li.tg-prevpage a{border-radius: 3px 0 0 3px;}
-.tg-pagination ul li.tg-nextpage a{border-radius: 0 3px 3px 0;}
-.tg-pagination ul li.tg-nextpage a i,
-.tg-pagination ul li.tg-prevpage a i{
-	display: block;
-	line-height: 30px;
-}
-.tg-pagination ul li.tg-active a,
-.tg-pagination ul li a:hover,
-.tg-pagination ul li.tg-nextpage a:hover,
-.tg-pagination ul li.tg-prevpage a:hover,
-.tg-pagination ul li.tg-nextpage a:hover i,
-.tg-pagination ul li.tg-prevpage a:hover i{
-	color: #fff;
-	background: #333;
-}
-/*==============================================
-			Theme BreadCrumb					
-==============================================*/
-.tg-breadcrumb {
-	margin:0;
-	padding: 0;
-	color: #666;
-	float: left;
-	list-style: none;
-	text-align: right;
-	text-transform: capitalize;
-	font:13px/16px 'Work Sans', Arial, Helvetica, sans-serif;
-}
-.tg-breadcrumb li{
-	width:auto;
-	float: left;
-	padding:0 15px;
-	position:relative;
-	list-style-type:none;
-	line-height:inherit;
-}
-.tg-breadcrumb li:after{
-	top:0;
-	left:-3px;
-	content:'\f105';
-	position:absolute;
-	font-size: inherit;
-	line-height: inherit;
-	font-family: 'FontAwesome';
-}
-.tg-breadcrumb li:first-child{ padding-left: 0;}
-.tg-breadcrumb li:first-child:after{display: none;}
-.tg-breadcrumb li a{display:block;}
-.tg-prev,
-.tg-next{
-	top:0;
-	right:0;
-	font-size:14px;
-	cursor:pointer;
-	position:absolute;
-}
-.tg-prev span,
-.tg-next span{
-	color:#373542;
-	display:block;
-	line-height:16px;
-	margin:0 14px 0 0;
-}
-.tg-prev{
-	top:-2px;
-	right:40px;
-	text-align:left;
-}
-.tg-next{
-	text-align:right;
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-}
-.tg-prev span:after,
-.tg-next span:after{
-	content:'';
-	top:50%;
-	left:15px;
-	width:20px;
-	height:1px;
-	z-index:-1;
-	opacity:0;
-	background:#373542;
-	position:absolute;
-	visibility:hidden;
-}
-.tg-prev:hover span:after,
-.tg-next:hover span:after{
-	opacity:1;
-	visibility:visible;
-}
-.tg-prev:hover span:after,
-.tg-next:hover span:after{left:3px;}
-/*==============================================
 			Theme Style							
 ==============================================*/
-.tg-home{}
+
 .tg-wrapper{
 	width: 100%;
 	max-width: 1230px;
@@ -1004,7 +859,7 @@ body.tg-home .tg-main{padding: 20px 0;}
 .tg-datebox,
 .tg-rtltextbox{
 	height: 40px;
-	color: #999;
+	color: #ffffff;
 	font-size: 12px;
 	line-height: 40px;
 	margin: 0 14px 0 0;
@@ -1021,38 +876,9 @@ body.tg-home .tg-main{padding: 20px 0;}
 	position: absolute;
 	background: #a0a0a0;
 }
-.tg-rtltextbox{
-	font-size: 12px;
-	line-height: 40px;
-}
-.tg-rtltextbox em{
-	font-style: normal;
-	padding: 0 15px 0 0;
-	display: inline-block;
-	vertical-align: top;
-}
-.tg-rtltextbox{color: #a0a0a0;}
-.tg-rtltextbox a{
-	color: #999;
-	margin: 0 5px 0 0;
-	line-height: 40px;
-	position: relative;
-	display: inline-block;
-	vertical-align: top;
-}
-.tg-rtltextbox a:before{
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 1px;
-	content: '';
-	background: #fff;
-	position: absolute;
-}
-.tg-rtltextbox a:hover{color: #fff;}
 .tg-topbar .tg-rightbox .tg-tollfree{
 	float: left;
-	color:#999;
+	color:#ffffff;
 	line-height: 40px;
 	padding: 0 30px 0 0;
 }
@@ -1062,7 +888,7 @@ body.tg-home .tg-main{padding: 20px 0;}
 	display: inline-block;
 }
 .tg-btndropdown{
-	color: #999;
+	color: #ffffff;
 	width: 100%;
 	float: left;
 	display: block;
@@ -1074,7 +900,7 @@ body.tg-home .tg-main{padding: 20px 0;}
 	background: rgba(0,0,0,0.40);
 }
 .tg-btndropdown:focus,
-.tg-btndropdown:hover{color: #666;}
+.tg-btndropdown:hover{color: #fffdfd;}
 .tg-btndropdown:after{
 	top: 0;
 	right: 15px;
@@ -1201,14 +1027,14 @@ li.menu-item-has-mega-menu > a:before{
 .tg-navigation ul li .sub-menu li.current-menu-item > a:before{height:100%;}
 .tg-navigation > ul > li{float: left;}
 .tg-navigation ul li a{
-	color: #666;
+	color: #1e1d1d;
 	display: block;
 	padding: 0 25px;
 	position: relative;
 	line-height: inherit;
 }
 .tg-navigation > ul > li > a{
-	color: #333;
+	color: #121212;
 	z-index: 2;
 }
 .tg-navigation > ul > li:last-child > .sub-menu{
@@ -1418,7 +1244,7 @@ a[data-new]:before{
 	line-height: 20px;
 	position: absolute;
 	text-align: center;
-	background: #333;
+	background: #111111;
 }
 .tg-dropdowarrow i{
 	display: block;
@@ -2151,7 +1977,7 @@ body.tg-home .tg-sidebar {padding: 20px 0 0;}
 	overflow: hidden;
 }
 .tg-homebannervtwo .tg-homeslider{
-	width: 75%;
+	width: 100%;
 	float: left;
 }
 .tg-homebannervtwo .tg-homeslider .owl-nav {
