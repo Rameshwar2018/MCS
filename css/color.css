@@ -107,3 +107,8 @@ a[data-new]:before,
 .tg-headervtwo .tg-navigation ul li:hover a[data-new]:before,
 .tg-headervtwo .tg-navigation ul li a:hover[data-new]:before,
 .tg-tag:hover{border-color: #3575d3;}
+
+
+.logo-color{
+	color: #ff0000;
+}
