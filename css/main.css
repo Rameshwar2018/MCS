@@ -363,7 +363,7 @@ address {
   padding: 0 50px;
   position: relative;
   text-align: center;
-  background: #373542;
+  background: #45444b;
   display: inline-block;
   vertical-align: middle;
   text-transform: capitalize;
@@ -371,6 +371,7 @@ address {
 }
 .tg-btn:hover {
   color: #fff;
+  background-color: #182313;
 }
 .tg-btn-sm {
   padding: 0 20px;
@@ -2207,8 +2208,6 @@ body.tg-home .tg-sidebar {
   padding: 3px 0 0;
   line-height: 13px;
 }
-.tg-widgetcompanyinfo .tg-socialicons {
-}
 .tg-widgetcompanyinfo .tg-socialicons li {
   margin: 0;
   width: auto;
@@ -2222,7 +2221,7 @@ body.tg-home .tg-sidebar {
   width: auto;
   height: auto;
   display: block;
-  color: #55acee;
+  color: #249af4;
   content: "\f099";
   background: none;
   border-radius: 0;
@@ -2244,66 +2243,17 @@ body.tg-home .tg-sidebar {
 }
 .tg-footermiddlebar .tg-widgetcoursecategories .tg-widgetcontent ul li:before {
   top: 2px;
-  color: #666;
+  color: #000000;
   content: "\f105";
   font-size: 13px;
   line-height: inherit;
 }
-.tg-widgetflickrgallery .tg-widgetcontent ul {
-  width: auto;
-  float: none;
-  clear: both;
-  margin: -5px;
-  overflow: hidden;
-}
-.tg-widgetflickrgallery .tg-widgetcontent ul li {
-  margin: 0;
-  width: 25%;
-  padding: 5px;
-}
-.tg-widgetflickrgallery .tg-widgetcontent ul li figure {
-  margin: 0;
-  width: 100%;
-  float: left;
-  background: #333;
-  position: relative;
-}
-.tg-widgetflickrgallery .tg-widgetcontent ul li figure figcaption {
-  top: 50%;
-  left: 50%;
-  z-index: 3;
-  opacity: 0;
-  color: #fff;
-  font-size: 13px;
-  line-height: 13px;
-  position: absolute;
-  visibility: hidden;
-  margin: -6px 0 0 -6px;
-}
-.tg-widgetflickrgallery .tg-widgetcontent ul li figure figcaption a {
-  color: #fff;
-}
-.tg-widgetflickrgallery .tg-widgetcontent ul li figure:hover figcaption {
-  opacity: 1;
-  visibility: visible;
-}
-.tg-widgetflickrgallery .tg-widgetcontent ul li figure a {
-  display: block;
-}
-.tg-widgetflickrgallery .tg-widgetcontent ul li figure a img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.tg-widgetflickrgallery .tg-widgetcontent ul li figure:hover a img {
-  opacity: 0.3;
-}
 .tg-footerbar {
   width: 100%;
   float: left;
-  color: #999;
+  color: #ffffff;
   padding: 15px 0;
-  background: #333;
+  background: #000000;
 }
 .tg-copyright {
   float: left;
@@ -2327,11 +2277,11 @@ body.tg-home .tg-sidebar {
   padding: 0 0 0 30px;
 }
 .tg-addnav ul li a {
-  color: #999;
+  color: #ffffff;
   display: block;
 }
 /*==========================================================================================
-									Home Page Version Two									
+									Home Page Two									
 ==========================================================================================*/
 .tg-homebannervtwo {
   clear: both;
@@ -2490,132 +2440,6 @@ body.tg-home .tg-sidebar {
 }
 .tg-widgetquicklinksvtwo .tg-widgetcontent ul li:nth-child(8) a:before {
   content: "\e938";
-}
-/*==========================================================================================================================
-													Pages Style Start Here													
-==========================================================================================================================*/
-.tg-innerbanner {
-  width: 100%;
-  float: left;
-}
-.tg-widgetcoursecategories .tg-widgetcontent ul li + li {
-  margin: 10px 0 0;
-}
-.tg-widgetcoursecategories .tg-widgetcontent ul li a {
-  width: 100%;
-  float: left;
-}
-.tg-widgetcoursecategories .tg-widgetcontent ul li a span {
-  float: left;
-}
-.tg-widgetcoursecategories .tg-widgetcontent ul li a span + span {
-  float: right;
-}
-.tg-campustitle h3 a {
-  display: block;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  text-overflow: ellipsis;
-  -webkit-box-orient: vertical;
-}
-.tg-widgetcontent .tg-campusleftthumb:first-child {
-  padding: 0;
-}
-.tg-widgetlatestcourses .tg-campuscontent .tg-matadata {
-  padding: 0 0 10px;
-}
-/*======================================================================================
-									Course Grid Style									
-======================================================================================*/
-.tg-resultandstyle {
-  width: 100%;
-  float: left;
-  padding: 10px;
-  margin: 0 0 30px;
-  background: #f7f7f7;
-}
-.tg-searchresult {
-  float: left;
-  padding: 6px 0;
-}
-.tg-poststyleswitcher {
-  float: right;
-  font-size: 13px;
-  line-height: 34px;
-  list-style: none;
-}
-.tg-poststyleswitcher li {
-  float: left;
-  padding: 0 0 0 10px;
-  line-height: inherit;
-  list-style-type: none;
-}
-.tg-poststyleswitcher li a {
-  color: #666;
-  width: 34px;
-  display: block;
-  background: #fff;
-  text-align: center;
-  line-height: inherit;
-}
-.tg-poststyleswitcher li a:hover,
-.tg-poststyleswitcher li a:hover i,
-.tg-poststyleswitcher li.tg-active a,
-.tg-poststyleswitcher li a:hover i {
-  color: #fff;
-}
-.tg-poststyleswitcher li a i {
-  display: block;
-  line-height: inherit;
-}
-.tg-courses {
-  width: 100%;
-  float: left;
-  margin: -15px 0;
-}
-.tg-courses .tg-course {
-  padding: 15px 0;
-}
-/*======================================================================================
-									Course List Style									
-======================================================================================*/
-.tg-list .tg-featuredimg {
-  width: 405px;
-}
-.tg-list .tg-themepostcontent {
-  width: auto;
-  float: none;
-  overflow: hidden;
-  padding: 42px 0 42px 20px;
-}
-.tg-course .tg-themepostcontent .tg-matadata {
-  margin: 0;
-}
-.tg-course .tg-description {
-  margin: 0 0 18px;
-  padding: 0 0 15px;
-  border-bottom: 1px solid #ddd;
-}
-.tg-course .tg-description p {
-  margin: 0;
-  width: 100%;
-  display: block;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  text-overflow: ellipsis;
-  -webkit-box-orient: vertical;
-}
-.tg-list .tg-course .tg-themeposttitle {
-  border: 0;
-  margin: 0;
-}
-.tg-list .tg-course .tg-themeposttitle h3 a {
-  display: block;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 /*======================================================================================
 								About Us Pages Style									
